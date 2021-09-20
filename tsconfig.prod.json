@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "./www/release/lib/",
+    "noImplicitAny": true,
+    "sourceMap": false,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "declaration": true
+  },
+  "include": [ "source/nucleus" ],
+  "exclude": [ "node_modules", "**/*.spec.*" ]
+}

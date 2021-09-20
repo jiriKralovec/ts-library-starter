@@ -1,0 +1,7 @@
+dist/
+build/
+prod/
+www/
+node_modules/
+.idea
+.npmrc
