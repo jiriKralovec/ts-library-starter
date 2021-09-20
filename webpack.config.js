@@ -27,7 +27,7 @@ module.exports = [
         resolve: {
             extensions: ['.tsx', '.ts', '.js'],
             alias: {
-                lib: path.resolve(process.cwd(), `${sourcePath}/nucleus`)
+                lib: path.resolve(process.cwd(), `${sourcePath}/library`)
             }
         },
         entry: {
@@ -66,7 +66,7 @@ module.exports = [
         mode: 'development',
         output: {
             filename: '[name].js',
-            path: path.resolve(__dirname, `${debugPath}/nucleus`),
+            path: path.resolve(__dirname, `${debugPath}/library`),
         },
         devtool: 'inline-source-map',
         module: {
@@ -81,11 +81,11 @@ module.exports = [
         resolve: {
             extensions: ['.tsx', '.ts', '.js'],
             alias: {
-                lib: path.resolve(process.cwd(), `${sourcePath}/nucleus`)
+                lib: path.resolve(process.cwd(), `${sourcePath}/library`)
             }
         },
         entry: {
-            main: glob.sync(`${sourcePath}/nucleus/**/*.{ts,tsx,js}`)
+            main: glob.sync(`${sourcePath}/library/**/*.{ts,tsx,js}`)
         }
     }
 ];

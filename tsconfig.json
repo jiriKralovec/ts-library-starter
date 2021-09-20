@@ -10,9 +10,9 @@
     "moduleResolution": "node",
     "baseUrl": ".",
     "paths": {
-      "lib/*": [ "source/nucleus/*" ]
+      "lib/*": [ "source/library/*" ]
     }
   },
-  "include": [ "source/nucleus" ],
+  "include": [ "source/library" ],
   "exclude": [ "node_modules", "**/*.spec.*" ]
 }

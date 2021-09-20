@@ -11,7 +11,7 @@ module.exports = [
             filename: '[name].js',
             path: path.resolve(__dirname, buildPath, 'lib'),
             clean: true,
-            library: "nucleus",
+            library: "library",
             libraryTarget: "umd",
             globalObject: "this",
             umdNamedDefine: true
@@ -49,7 +49,7 @@ module.exports = [
             })
         ],
         entry: {
-            main: path.resolve(__dirname, `${sourcePath}/nucleus`, "main.ts")
+            main: path.resolve(__dirname, `${sourcePath}/library`, "main.ts")
         }
     }
 ];

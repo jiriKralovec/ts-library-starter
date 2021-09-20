@@ -11,6 +11,6 @@
     "baseUrl": ".",
     "declaration": true
   },
-  "include": [ "source/nucleus" ],
+  "include": [ "source/library" ],
   "exclude": [ "node_modules", "**/*.spec.*" ]
 }
